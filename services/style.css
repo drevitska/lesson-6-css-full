@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Proxima Nova Light';
+	src: url('./fonts/proxima_nova_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/proxima_nova_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/proxima_nova_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/proxima_nova_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/proxima_nova_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/proxima_nova_light.svg#proxima_nova_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('./fonts/proxima_nova_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/proxima_nova_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/proxima_nova_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/proxima_nova_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/proxima_nova_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/proxima_nova_regular.svg#proxima_nova_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body {
+    font-family: 'Proxima Nova Light',sans-serif;
+    font-size: 14px;
+}
+.section {
+    background: #ffffff; /* Цвет фона */
+    padding-top: 56px; /* отступ сверху */
+    padding-bottom: 66px; /* отступ снизу */
+}
+.container {
+    width: 1100px; /* Ширина блока */
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-grow: 1;
+}
+.circle {
+    height: 66px; /* Высота блока */
+    width: 66px; /* Ширина блока */
+    border: 1px solid #fff; /* Параметры рамки */
+    border-radius: 50%;
+    display: flex;
+    align-items: center; /* выровняли по вертикали */
+    justify-content: center; /* выровняли по горизонтали */
+    margin: 0 auto; 
+    background-color: #2a69a6;
+    color: #fff ;
+}
+.circle:hover {
+    background-color: #fff;
+    color:#2a69a6;
+    border: 1px solid #2a69a6;
+}
+.box {
+    text-align: center; 
+    flex-grow: 1;
+    /* outline: 1px solid red; */
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.paragraf {
+    color: #9d9d9d;
+    width: 220px;
+    margin: 0 auto;
+}
